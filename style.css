@@ -4,6 +4,30 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+    font-size:2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+li {
+    font-size:1.5em;
+}
+
 section {
     /*background-image: linear-gradient(to Right, #a4b0f5, #4464ad, #a4b0f5);*/
     background-color: #4464ad;
@@ -11,7 +35,6 @@ section {
 
 section h1 {
     text-align: center;
-    font-size: xx-large;
 }
 
 #Sidebar {
@@ -63,4 +86,25 @@ section h1 {
 
 .pageCon {
     flex: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid #466995;
+}
+
+.image {
+    float:right;
+    width:30%;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid #466995;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image p {
+    font-size: 1em;
 }
