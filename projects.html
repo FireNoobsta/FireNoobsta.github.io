@@ -6,7 +6,7 @@
 </head>
 <body>
     <section>
-        <h1>My Portfolio</h1>
+        <h1>My Projects</h1>
     </section>
     <div class="content">
         <div id="Sidebar">
@@ -27,10 +27,181 @@
             </a>
         </div>
         <div class="pageCon">
-            <h2>Project 1</h2>
-            <p>//TODO</p>
-            <h2>Project 2</h2>
-            <p>//TODO</p>
+            <div>
+                <h2>Horror VR Game in Unity</h2>
+                <div class="image">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/gbu2WCD-d2I" title="Witch Chaos Game Trailer (CS 179N Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p>
+                    I worked with a group of four others to make a game in around ten weeks.
+                    It is a horror game about surviving a zombie apocalypse in a customizable vehicle.
+                    I was responsible for making the map, some UI, pickups, and the boss.
+                    Although in a playable state, no build was made public.
+                    Our repository, however, is public and can be found <a href="https://github.com/jt7williams/DaDangGang_Project">here</a>.
+                </p>
+                <p>
+                    This was the first time I worked on a game with a team, and I learned a lot from it.
+                    Each member had unique skills to bring to the project, and being in charge of the map instilled in me an affinity for level design.
+                    We learned how to use git with a large file system since the assets like models and map files are much larger than code files.
+                    We used agile methodology and a scrum framework to prioritize the most important aspects of the game first.
+                    This was during covid, so our scrum meetings were in voice calls and we worked remotely.
+                    Despite this, we were still able to collaborate effectively and make the majority of the planned features of our game.
+                    It didn’t match our vision in the very beginning, but that was expected because we got a better idea of what we really wanted as we worked on it.
+                    Overall I am happy with this project and am glad I got to work with a great group of people.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <h2>Custom Maps via Modding an Unreal Engine Game</h2>
+                <p>
+                    This is a mod of one of my favorite games, Light Bearers.
+                    If you are unfamiliar, it is an asymmetric game that plays like tag.
+                    One player, the shadow, is tasked to tag the rest of the players, the light bears.
+                    For more information on the game check it out on <a href="https://store.steampowered.com/app/765710/Light_Bearers/">steam</a>.
+                    (Note: I am not affiliated with the game, I just modded it)
+                    I used a pak file patch to replace unused map files with my own maps.
+                    You can find the mod <a href="https://github.com/FireNoobsta/ModForLightBearers">here</a>.
+                    These maps are my own, but use models and textures from the base game (which are not mine).
+                    Right now there are 5 custom maps, and I will likely add more in the future.
+                </p>
+            </div>
+
+            <div>
+                <h3>Experimental Map</h3>
+                <div class="image">
+                    <img src="images/ExperimentalMap.png" alt="Thumbnail of experimental map" />
+                </div>
+                <p>
+                    This is not a traditional map.
+                    This is just a test map as I learned the mapping tools in unreal engine.
+                    I also used it to learn the limitations of what I could and could not mod into an existing game.
+                    Eventually, it became a map to find the limits of the movement system through obstacle courses.
+                </p>
+            </div>
+
+            <div>
+                <h3>Tropical Map</h3>
+                <div class="image">
+                    <img src="images/TropicalMap.png" alt="Thumbnail of tropical map" />
+                </div>
+                <p>
+                    This was my first proper map.
+                    It originally had a mountain in the center and was much larger.
+                    After playing it I found it too large and eventually reworked it entirely.
+                    It has a mechanic where a button can be pressed to extend a bridge across a gap, but it can toggled off again.
+                </p>
+            </div>
+
+            <div>
+                <h3>Panopticon Map</h3>
+                <div class="image">
+                    <img src="images/PanopticonMap.gif" alt="View of spotlights rotating around top floor" />
+                </div>
+                <p>
+                    This map is based around a central panopticon.
+                    It is designed like a prison and thus there are not a lot of places to hide.
+                    There is also a “lockdown” button that when pressed spawns many walls that are only solid to light bears, so the shadow is unimpeded.
+                    This button can be pressed again though to undo the lockdown.
+                    This all seemed shadow sided to me so I made it so that bears do not take a fall penalty on this particular map.
+                </p>
+            </div>
+
+            <div>
+                <h3>Randomizer Map</h3>
+                <div class="image">
+                    <img src="images/RandomizerMap.png" alt="Comparison of two different permutations of randomizer map" />
+                </div>
+                <p>
+                    This map was inspired by procedural level generators I find in many roguelikes I play.
+                    Although mine is much simpler, I made it from scratch.
+                    This map has a central island surrounded by 8 others that are randomly selected from a pool of 16 possible.
+                    These are also given a random rotation, so they are designed to be approachable by at least 2 angles.
+                    There are 12,870 ways to choose 8 options from 16, so this simple generation provides lots of different permutations even if you disregard the different rotations the islands can be.
+                </p>
+            </div>
+
+            <div>
+                <h3>Collectathon Map</h3>
+                <div class="image">
+                    <img src="images/RiverMap.gif" alt="Timelapse of map through day/night cycle" />
+                </div>
+                <p>
+                    This map is different from others as it is not intended to be played traditionally.
+                    This map is meant to be a collectathon where you explore a large map and try to find every collectible.
+                    It is still under construction because of this massive size.
+                    I made a day/night cycle for this map to emphasize the time it takes to traverse.
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    Modding an unreal game gave me a better understanding about how the engine works.
+                    I found out which files rely on other files, and which can be replaced or deleted without breaking the game.
+                    I also became much more familiar with the mapping tools provided by the engine.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <h2>Ray Tracer</h2>
+                <div class="image">
+                    <img src="images/teapot.png" alt="Render of Utah Teapot" />
+                </div>
+                <p>
+                    I wrote a program in C++ to render a scene using ray tracing.
+                    I was provided starting code to parse input and output a png, but the ray casting and shaders I made myself.
+                    I didn’t implement any optimizations to see how long it takes to render.
+                    It can render spheres and a small number of triangles quickly.
+                    However, the teapot pictured to the right consists of 6,320 triangles and took over an hour to render.
+                    It makes me appreciate the advancements in ray tracing technology today.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <h2>Farming Game</h2>
+                <div class="image">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/tZQg2kU35aM" title="UCR EE/CS 120B Spring 2019 Naid Ibarra LED Farming" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p>
+                    I used an ATMega 1284 microcontroller to program a simple farming game.
+                    The code and a more thorough report can be found <a href="https://drive.google.com/open?id=1Gh8oZz0nSyZNTB7B5A5w5M4yx-Fz3uWp">here</a>.
+                    You interface with the game with a joystick and button.
+                    An LCD screen displays the menu where you can buy seeds and plant them.
+                    Your plot of land is represented by 16 leds that glow brighter as your crops grow.
+                    You harvest and sell these plants to buy more seeds and repeat.
+                </p>
+
+                <p>
+                    I used multiple state machines to implement this.
+                    I learned a lot about handling raw input to make the menu navigation feel responsive.
+                    Wiring the system was a challenge, but fortunately I used a large enclosure so I had plenty of room.
+                </p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <h2>Puzzle Solver</h2>
+                <div class="image">
+                    <img src="images/TraceBack.png" alt="Screenshot of puzzle solver output" />
+                </div>
+                <p>
+                    I wrote a program that solves those sliding puzzles with 8 tiles in a 3x3 grid.
+                    It can be found <a href="https://github.com/FireNoobsta/CS170Project1-EightPuzzle">here</a>.
+                    It uses the A* algorithm with a variety of heuristics to search through the problem space.
+                    Of the heuristics used, the Manhattan distance of each tile to its proper position proved to be the best heuristic to quickly solve the puzzle and with minimal memory usage.
+                    Uniform cost search was understandably the worst since it is essentially a breadth first search of the problem space.
+                    I calculated the branching factor to be 2.67 and testing on random puzzles confirmed that uniform cost search would explore around 2.67^d puzzle states (where d is the solution depth).
+                    This project was an interesting endeavor in translating a real life puzzle into a representation that can be solved quickly by a program.
+                    I still use what I learned from it to occasionally make simple programs to quench my own curiosity of certain problems.
+                    For example, I made a similar program when I saw a rotating cylinder puzzle in a video game because I was curious about what configuration would be furthest from the solution.
+                </p>
+            </div>
         </div>
     </div>
 </body>

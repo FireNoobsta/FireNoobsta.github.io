@@ -95,7 +95,8 @@ section h1 {
 
 .image {
     float:right;
-    width:30%;
+    /*width:30%;*/
+    max-width: 50%;
     padding: 5px;
     margin: 10px;
     border: 5px solid #466995;
@@ -107,4 +108,15 @@ section h1 {
 
 .image p {
     font-size: 1em;
+}
+
+.image iframe {
+    /*width: 100%;*/
+    max-width:  100%;
+}
+
+.divider {
+    background-color: #466995;
+    width: 100%;
+    height: 5px;
 }
